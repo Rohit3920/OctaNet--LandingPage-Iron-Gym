@@ -1,5 +1,57 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.nav {
+    height: 5em;
+    width: 100vw;
+    background-color: black;
+}
+
+.nav .logo {
+    width: 18em;
+    float: left;
+    margin: 0.2em 1em;
+}
+
+.nav ul {
+    float: left;
+    margin-top: 2em;
+}
+
+.nav ul li {
+    display: inline;
+    align-items: center;
+    padding: 4px;
+    margin: 0 5px;
+}
+
+.nav ul li:hover, .nav ul li:first-child{
+    border-bottom: 1px solid white;
+}
+
+.nav ul li a {
+    padding: 2em 10px 2em 10px;
+    text-decoration: none;
+    padding: 8px;
+    color: #dddddd;
+
+}
+
+.nav button {
+    margin: 0.8em 2em 0 0;
+    padding: 0.3em;
+    font-size: 24px;
+    border-radius: 10px;
+    float: right;
+    color: white;
+    border-color: white;
+    background-color: rgb(3, 116, 202);
+}
+
+.nav button:hover{
+    color: black;
+    background-color: rgb(199, 199, 199);
 }
