@@ -119,3 +119,13 @@
     background-color: rgb(255, 68, 0);
     color:white;
 }
+
+section.gym-feature{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 3em 5em;
+    text-align: center;
+    border-radius: 0 0 2em 2em;
+    word-spacing: 4px;
+    background-color: aquamarine;
+}
